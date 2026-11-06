@@ -1,8 +1,6 @@
 // SigmaOS-theming-native
 // Native theming engine integration — bridges SigmaOS themes with toolkit rendering.
 
-pub mod engine;
-pub mod bridge;
 
 /// Initialise the native theming engine.
 ///
@@ -11,3 +9,6 @@ pub mod bridge;
 pub fn init() {
     // TODO: detect toolkit, load bridge, apply active theme
 }
+
+pub mod icon;
+pub mod palette;
