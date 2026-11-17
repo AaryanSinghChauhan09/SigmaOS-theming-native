@@ -1,6 +1,6 @@
 [component]
 name = "SigmaOS-theming-native"
-description = "SigmaOS subsystem component for theming-native"
+description = "Native (CSD-less) theming engine"
 version = "0.1.0"
 tier = 5
 
