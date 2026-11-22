@@ -1,18 +1,18 @@
-# SigmaOS-SigmaOS-theming-native Component Wiki
+# SigmaOS-theming-native Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-theming-native provides Native (CSD-less) theming engine for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-theming-native provides component for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
-- Single Responsibility
-- SigmaOS-theming-native Abstraction
-- Fail-Fast on SigmaOS-theming-native Initialization Errors
-- Deterministic SigmaOS-theming-native Setup
-- Clear Abstraction Over SigmaOS-theming-native APIs
-- Composition over Inheritance for SigmaOS-theming-native extensions
+- **Single Responsibility**: Each component has a single well-defined purpose
+- **SigmaOS-theming-native Abstraction**: Clear abstraction over the component's APIs and functionality
+- **Fail-Fast on SigmaOS-theming-native Initialization Errors**: Fail-fast principle for initialization errors
+- **Deterministic SigmaOS-theming-native Setup**: Deterministic initialization and configuration
+- **Clear Abstraction Over SigmaOS-theming-native APIs**: Well-defined, clear APIs
+- **Composition over Inheritance for SigmaOS-theming-native extensions**: Use composition patterns for extensions
 
 ## Architecture
-SigmaOS-SigmaOS-theming-native follows a SigmaOS-theming-native pattern:
+SigmaOS-theming-native follows a SigmaOS-theming-native pattern:
 - **SigmaOS-theming-native Core**: Provides SigmaOS-theming-native support, SigmaOS-theming-native management, and SigmaOS-theming-native tracking
 - **Management**: Supports SigmaOS-theming-native management, SigmaOS-theming-native configuration, and SigmaOS-theming-native lifecycle
 - **Tracking**: Supports SigmaOS-theming-native status, SigmaOS-theming-native tracking, and SigmaOS-theming-native lifecycle
@@ -20,10 +20,10 @@ SigmaOS-SigmaOS-theming-native follows a SigmaOS-theming-native pattern:
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-theming-native by given configuration
--  - Register a SigmaOS-theming-native by given name
--  - Get SigmaOS-theming-native status and SigmaOS-theming-native availability
--  - Track SigmaOS-theming-native management and SigmaOS-theming-native tracking
+- Manage a SigmaOS-theming-native by given configuration
+- Register a SigmaOS-theming-native by given name
+- Get SigmaOS-theming-native status and SigmaOS-theming-native availability
+- Track SigmaOS-theming-native management and SigmaOS-theming-native tracking
 - Error types for SigmaOS-theming-native failure scenarios or unsupported SigmaOS-theming-native types
 
 ## Test Structure (Arrange-Act-ASSERT)
@@ -32,11 +32,8 @@ All tests follow the AAA pattern:
 2. **Act**: Execute the code under test (SigmaOS-theming-native init, SigmaOS-theming-native management)
 3. **Assert**: Verify the expected SigmaOS-theming-native results
 
-Example:
-
-
 ## Development
-- Follows Rust best practices with 
+- Follows best practices with clear abstraction boundaries
 - SigmaOS-theming-native initialization is best-effort; gracefully degrades on unsupported configurations
 - Comprehensive error types for all SigmaOS-theming-native failure scenarios
 - Unit tests provided for SigmaOS-theming-native management and configuration
